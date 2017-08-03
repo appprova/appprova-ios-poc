@@ -1,0 +1,754 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C735A78F3D8014E57C0E70C /* Pods_appprova_ios_pocUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7762C98836F0A30E68B8A2C7 /* Pods_appprova_ios_pocUITests.framework */; };
+		6E9317E2993BCC261D78B50A /* Pods_appprova_ios_poc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46A76941300A45CA2E648909 /* Pods_appprova_ios_poc.framework */; };
+		8B9C2F94FD4AF52799A9614D /* Pods_appprova_ios_pocTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7038A6EA16ACD15FD3F5AFD1 /* Pods_appprova_ios_pocTests.framework */; };
+		EE6361871F338663006FCCC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6361861F338663006FCCC7 /* AppDelegate.swift */; };
+		EE6361891F338663006FCCC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6361881F338663006FCCC7 /* ViewController.swift */; };
+		EE63618C1F338664006FCCC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE63618A1F338664006FCCC7 /* Main.storyboard */; };
+		EE63618E1F338664006FCCC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE63618D1F338664006FCCC7 /* Assets.xcassets */; };
+		EE6361911F338664006FCCC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE63618F1F338664006FCCC7 /* LaunchScreen.storyboard */; };
+		EE63619C1F338664006FCCC7 /* appprova_ios_pocTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE63619B1F338664006FCCC7 /* appprova_ios_pocTests.swift */; };
+		EE6361A71F338664006FCCC7 /* appprova_ios_pocUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6361A61F338664006FCCC7 /* appprova_ios_pocUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE6361981F338664006FCCC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE63617B1F338663006FCCC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE6361821F338663006FCCC7;
+			remoteInfo = "appprova-ios-poc";
+		};
+		EE6361A31F338664006FCCC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE63617B1F338663006FCCC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE6361821F338663006FCCC7;
+			remoteInfo = "appprova-ios-poc";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C7E8BE7273F73AA3D51B30D /* Pods-appprova-ios-poc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appprova-ios-poc.debug.xcconfig"; path = "Pods/Target Support Files/Pods-appprova-ios-poc/Pods-appprova-ios-poc.debug.xcconfig"; sourceTree = "<group>"; };
+		448E5DE5083A25F592213CD1 /* Pods-appprova-ios-pocUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appprova-ios-pocUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-appprova-ios-pocUITests/Pods-appprova-ios-pocUITests.release.xcconfig"; sourceTree = "<group>"; };
+		46A76941300A45CA2E648909 /* Pods_appprova_ios_poc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_appprova_ios_poc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7038A6EA16ACD15FD3F5AFD1 /* Pods_appprova_ios_pocTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_appprova_ios_pocTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7294461507DE577A8B56C609 /* Pods-appprova-ios-pocUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appprova-ios-pocUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-appprova-ios-pocUITests/Pods-appprova-ios-pocUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7762C98836F0A30E68B8A2C7 /* Pods_appprova_ios_pocUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_appprova_ios_pocUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C2A2DE09B4D9B8DA78F9487 /* Pods-appprova-ios-poc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appprova-ios-poc.release.xcconfig"; path = "Pods/Target Support Files/Pods-appprova-ios-poc/Pods-appprova-ios-poc.release.xcconfig"; sourceTree = "<group>"; };
+		A3BB94B6AD3B70E119F9EB6B /* Pods-appprova-ios-pocTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appprova-ios-pocTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-appprova-ios-pocTests/Pods-appprova-ios-pocTests.release.xcconfig"; sourceTree = "<group>"; };
+		B7E4951CA6C41AF7E13B3D46 /* Pods-appprova-ios-pocTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appprova-ios-pocTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-appprova-ios-pocTests/Pods-appprova-ios-pocTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EE6361831F338663006FCCC7 /* appprova-ios-poc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "appprova-ios-poc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE6361861F338663006FCCC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE6361881F338663006FCCC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE63618B1F338664006FCCC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE63618D1F338664006FCCC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE6361901F338664006FCCC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE6361921F338664006FCCC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE6361971F338664006FCCC7 /* appprova-ios-pocTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "appprova-ios-pocTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE63619B1F338664006FCCC7 /* appprova_ios_pocTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appprova_ios_pocTests.swift; sourceTree = "<group>"; };
+		EE63619D1F338664006FCCC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE6361A21F338664006FCCC7 /* appprova-ios-pocUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "appprova-ios-pocUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE6361A61F338664006FCCC7 /* appprova_ios_pocUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appprova_ios_pocUITests.swift; sourceTree = "<group>"; };
+		EE6361A81F338664006FCCC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE6361801F338663006FCCC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E9317E2993BCC261D78B50A /* Pods_appprova_ios_poc.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE6361941F338664006FCCC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B9C2F94FD4AF52799A9614D /* Pods_appprova_ios_pocTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE63619F1F338664006FCCC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C735A78F3D8014E57C0E70C /* Pods_appprova_ios_pocUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E317513C0C06DCE81FB69B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C7E8BE7273F73AA3D51B30D /* Pods-appprova-ios-poc.debug.xcconfig */,
+				8C2A2DE09B4D9B8DA78F9487 /* Pods-appprova-ios-poc.release.xcconfig */,
+				B7E4951CA6C41AF7E13B3D46 /* Pods-appprova-ios-pocTests.debug.xcconfig */,
+				A3BB94B6AD3B70E119F9EB6B /* Pods-appprova-ios-pocTests.release.xcconfig */,
+				7294461507DE577A8B56C609 /* Pods-appprova-ios-pocUITests.debug.xcconfig */,
+				448E5DE5083A25F592213CD1 /* Pods-appprova-ios-pocUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C1E84EB1E228BB1C4A059BBF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				46A76941300A45CA2E648909 /* Pods_appprova_ios_poc.framework */,
+				7038A6EA16ACD15FD3F5AFD1 /* Pods_appprova_ios_pocTests.framework */,
+				7762C98836F0A30E68B8A2C7 /* Pods_appprova_ios_pocUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE63617A1F338663006FCCC7 = {
+			isa = PBXGroup;
+			children = (
+				EE6361851F338663006FCCC7 /* appprova-ios-poc */,
+				EE63619A1F338664006FCCC7 /* appprova-ios-pocTests */,
+				EE6361A51F338664006FCCC7 /* appprova-ios-pocUITests */,
+				EE6361841F338663006FCCC7 /* Products */,
+				4E317513C0C06DCE81FB69B2 /* Pods */,
+				C1E84EB1E228BB1C4A059BBF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EE6361841F338663006FCCC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE6361831F338663006FCCC7 /* appprova-ios-poc.app */,
+				EE6361971F338664006FCCC7 /* appprova-ios-pocTests.xctest */,
+				EE6361A21F338664006FCCC7 /* appprova-ios-pocUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE6361851F338663006FCCC7 /* appprova-ios-poc */ = {
+			isa = PBXGroup;
+			children = (
+				EE6361861F338663006FCCC7 /* AppDelegate.swift */,
+				EE6361881F338663006FCCC7 /* ViewController.swift */,
+				EE63618A1F338664006FCCC7 /* Main.storyboard */,
+				EE63618D1F338664006FCCC7 /* Assets.xcassets */,
+				EE63618F1F338664006FCCC7 /* LaunchScreen.storyboard */,
+				EE6361921F338664006FCCC7 /* Info.plist */,
+			);
+			path = "appprova-ios-poc";
+			sourceTree = "<group>";
+		};
+		EE63619A1F338664006FCCC7 /* appprova-ios-pocTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE63619B1F338664006FCCC7 /* appprova_ios_pocTests.swift */,
+				EE63619D1F338664006FCCC7 /* Info.plist */,
+			);
+			path = "appprova-ios-pocTests";
+			sourceTree = "<group>";
+		};
+		EE6361A51F338664006FCCC7 /* appprova-ios-pocUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE6361A61F338664006FCCC7 /* appprova_ios_pocUITests.swift */,
+				EE6361A81F338664006FCCC7 /* Info.plist */,
+			);
+			path = "appprova-ios-pocUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE6361821F338663006FCCC7 /* appprova-ios-poc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE6361AB1F338664006FCCC7 /* Build configuration list for PBXNativeTarget "appprova-ios-poc" */;
+			buildPhases = (
+				82C6F377A5CD6270643E8090 /* [CP] Check Pods Manifest.lock */,
+				EE63617F1F338663006FCCC7 /* Sources */,
+				EE6361801F338663006FCCC7 /* Frameworks */,
+				EE6361811F338663006FCCC7 /* Resources */,
+				D4D8BCD01B340373B8EDB63D /* [CP] Embed Pods Frameworks */,
+				ABAB0BFF513AD4EBC7849B6F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "appprova-ios-poc";
+			productName = "appprova-ios-poc";
+			productReference = EE6361831F338663006FCCC7 /* appprova-ios-poc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE6361961F338664006FCCC7 /* appprova-ios-pocTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE6361AE1F338664006FCCC7 /* Build configuration list for PBXNativeTarget "appprova-ios-pocTests" */;
+			buildPhases = (
+				ECCF07F30883A7669E2360A5 /* [CP] Check Pods Manifest.lock */,
+				EE6361931F338664006FCCC7 /* Sources */,
+				EE6361941F338664006FCCC7 /* Frameworks */,
+				EE6361951F338664006FCCC7 /* Resources */,
+				1F28D0ACA35BBE3A2C083DD7 /* [CP] Embed Pods Frameworks */,
+				1052586E81D930B639CA1913 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE6361991F338664006FCCC7 /* PBXTargetDependency */,
+			);
+			name = "appprova-ios-pocTests";
+			productName = "appprova-ios-pocTests";
+			productReference = EE6361971F338664006FCCC7 /* appprova-ios-pocTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE6361A11F338664006FCCC7 /* appprova-ios-pocUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE6361B11F338664006FCCC7 /* Build configuration list for PBXNativeTarget "appprova-ios-pocUITests" */;
+			buildPhases = (
+				F2E7C728E1DE7436B467FAD2 /* [CP] Check Pods Manifest.lock */,
+				EE63619E1F338664006FCCC7 /* Sources */,
+				EE63619F1F338664006FCCC7 /* Frameworks */,
+				EE6361A01F338664006FCCC7 /* Resources */,
+				FD2E23034E4078A1964B2B88 /* [CP] Embed Pods Frameworks */,
+				F98199DE6C078F49FB83FF6F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE6361A41F338664006FCCC7 /* PBXTargetDependency */,
+			);
+			name = "appprova-ios-pocUITests";
+			productName = "appprova-ios-pocUITests";
+			productReference = EE6361A21F338664006FCCC7 /* appprova-ios-pocUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE63617B1F338663006FCCC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Gabriel Oliva";
+				TargetAttributes = {
+					EE6361821F338663006FCCC7 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = HQ4D5747KC;
+						ProvisioningStyle = Automatic;
+					};
+					EE6361961F338664006FCCC7 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = HQ4D5747KC;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE6361821F338663006FCCC7;
+					};
+					EE6361A11F338664006FCCC7 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = HQ4D5747KC;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE6361821F338663006FCCC7;
+					};
+				};
+			};
+			buildConfigurationList = EE63617E1F338663006FCCC7 /* Build configuration list for PBXProject "appprova-ios-poc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE63617A1F338663006FCCC7;
+			productRefGroup = EE6361841F338663006FCCC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE6361821F338663006FCCC7 /* appprova-ios-poc */,
+				EE6361961F338664006FCCC7 /* appprova-ios-pocTests */,
+				EE6361A11F338664006FCCC7 /* appprova-ios-pocUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE6361811F338663006FCCC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE6361911F338664006FCCC7 /* LaunchScreen.storyboard in Resources */,
+				EE63618E1F338664006FCCC7 /* Assets.xcassets in Resources */,
+				EE63618C1F338664006FCCC7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE6361951F338664006FCCC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE6361A01F338664006FCCC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1052586E81D930B639CA1913 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-appprova-ios-pocTests/Pods-appprova-ios-pocTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1F28D0ACA35BBE3A2C083DD7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-appprova-ios-pocTests/Pods-appprova-ios-pocTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82C6F377A5CD6270643E8090 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-appprova-ios-poc-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABAB0BFF513AD4EBC7849B6F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-appprova-ios-poc/Pods-appprova-ios-poc-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4D8BCD01B340373B8EDB63D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-appprova-ios-poc/Pods-appprova-ios-poc-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Swinject/Swinject.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Swinject.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-appprova-ios-poc/Pods-appprova-ios-poc-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECCF07F30883A7669E2360A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-appprova-ios-pocTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2E7C728E1DE7436B467FAD2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-appprova-ios-pocUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F98199DE6C078F49FB83FF6F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-appprova-ios-pocUITests/Pods-appprova-ios-pocUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD2E23034E4078A1964B2B88 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-appprova-ios-pocUITests/Pods-appprova-ios-pocUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE63617F1F338663006FCCC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE6361891F338663006FCCC7 /* ViewController.swift in Sources */,
+				EE6361871F338663006FCCC7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE6361931F338664006FCCC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE63619C1F338664006FCCC7 /* appprova_ios_pocTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE63619E1F338664006FCCC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE6361A71F338664006FCCC7 /* appprova_ios_pocUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE6361991F338664006FCCC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE6361821F338663006FCCC7 /* appprova-ios-poc */;
+			targetProxy = EE6361981F338664006FCCC7 /* PBXContainerItemProxy */;
+		};
+		EE6361A41F338664006FCCC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE6361821F338663006FCCC7 /* appprova-ios-poc */;
+			targetProxy = EE6361A31F338664006FCCC7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE63618A1F338664006FCCC7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE63618B1F338664006FCCC7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE63618F1F338664006FCCC7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE6361901F338664006FCCC7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE6361A91F338664006FCCC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE6361AA1F338664006FCCC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE6361AC1F338664006FCCC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C7E8BE7273F73AA3D51B30D /* Pods-appprova-ios-poc.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HQ4D5747KC;
+				INFOPLIST_FILE = "appprova-ios-poc/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AppProva.appprova-ios-poc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EE6361AD1F338664006FCCC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C2A2DE09B4D9B8DA78F9487 /* Pods-appprova-ios-poc.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HQ4D5747KC;
+				INFOPLIST_FILE = "appprova-ios-poc/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AppProva.appprova-ios-poc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EE6361AF1F338664006FCCC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7E4951CA6C41AF7E13B3D46 /* Pods-appprova-ios-pocTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = HQ4D5747KC;
+				INFOPLIST_FILE = "appprova-ios-pocTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AppProva.appprova-ios-pocTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/appprova-ios-poc.app/appprova-ios-poc";
+			};
+			name = Debug;
+		};
+		EE6361B01F338664006FCCC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3BB94B6AD3B70E119F9EB6B /* Pods-appprova-ios-pocTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = HQ4D5747KC;
+				INFOPLIST_FILE = "appprova-ios-pocTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AppProva.appprova-ios-pocTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/appprova-ios-poc.app/appprova-ios-poc";
+			};
+			name = Release;
+		};
+		EE6361B21F338664006FCCC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7294461507DE577A8B56C609 /* Pods-appprova-ios-pocUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = HQ4D5747KC;
+				INFOPLIST_FILE = "appprova-ios-pocUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AppProva.appprova-ios-pocUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "appprova-ios-poc";
+			};
+			name = Debug;
+		};
+		EE6361B31F338664006FCCC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 448E5DE5083A25F592213CD1 /* Pods-appprova-ios-pocUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = HQ4D5747KC;
+				INFOPLIST_FILE = "appprova-ios-pocUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AppProva.appprova-ios-pocUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "appprova-ios-poc";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE63617E1F338663006FCCC7 /* Build configuration list for PBXProject "appprova-ios-poc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE6361A91F338664006FCCC7 /* Debug */,
+				EE6361AA1F338664006FCCC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE6361AB1F338664006FCCC7 /* Build configuration list for PBXNativeTarget "appprova-ios-poc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE6361AC1F338664006FCCC7 /* Debug */,
+				EE6361AD1F338664006FCCC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE6361AE1F338664006FCCC7 /* Build configuration list for PBXNativeTarget "appprova-ios-pocTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE6361AF1F338664006FCCC7 /* Debug */,
+				EE6361B01F338664006FCCC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE6361B11F338664006FCCC7 /* Build configuration list for PBXNativeTarget "appprova-ios-pocUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE6361B21F338664006FCCC7 /* Debug */,
+				EE6361B31F338664006FCCC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE63617B1F338663006FCCC7 /* Project object */;
+}
